@@ -392,10 +392,12 @@
                 </h3>
                 <div class="divider"></div>
                 <p class="card__text" align="left">
-                A blockchain-enabled community marketplace with dynamic pricing, using a fuzzy logic-based smart contract to monitor quality and quantity of commodities, processed via IOTA decentralized ledger and accessible through a mobile app or kiosk UI. Transactions occur only after customer accepts proposed price.
-                </p>
+                A blockchain-enabled community marketplace with dynamic pricing, using a fuzzy logic-based smart contract to monitor quality and quantity of commodities, processed via IOTA decentralized ledger and accessible through a mobile app or kiosk UI. Transactions occur only after customer accepts proposed price. </p> 
+                <button class="read-more-btn">Read More</button> <br>
+                
+                <!-- <div class="divider"></div> -->
                 <a href="https://www.researchgate.net/publication/360382709_Architecture_and_Proof_of_Concept_Design_for_Community_Marketplace_Using_Blockchain_Technology_and_Fuzzy_Intelligence" class="button button--flex">
-                Read More <i class="ri-arrow-right-down-line button__icon"></i>
+                Read full paper <i class="ri-arrow-right-down-line button__icon"></i>
                 </a>
             </div>
             </div>
@@ -409,8 +411,10 @@
                 <p class="card__text" align="left">
                 This paper introduces a blockchain-based DApp to match blood recipients with donors in emergency situations, securely storing donor information and incentivizing blood donations with NFT badges. The paper details the design of smart contracts and the DApp, aiming to address low donor awareness and motivation.
                 </p>
+                <button class="read-more-btn">Read More</button> <br>
+
                 <a href="https://www.researchgate.net/publication/366093956_A_prototype_design_for_Gamified_blood_donation_app_using_Blockchain_Technology_IPFS_and_NFTs" class="button button--flex">
-                Read More <i class="ri-arrow-right-down-line button__icon"></i>
+                Read full paper <i class="ri-arrow-right-down-line button__icon"></i>
                 </a>
             </div>
             </div>
@@ -424,11 +428,12 @@
                 
                 <p class="card__text" align="left">
                  The existing Food Supply Chain (FSC) suffers from issues like quality, safety, conscious consumption, and regulatory issues. Introducing a new Food Supply Chain Traceability System to overcome problems faced by existing system using Ethereum smart contract linked to IPFS, which handles data and enables trust through cryptocurrency, AVCoin.
-                </p>
+                </p> 
+                <button class="read-more-btn">Read More</button> <br>
 
                 <!-- <div class="divider"></div> -->
                 <a href="https://ieeexplore.ieee.org/document/10009418" class="button button--flex">
-                Read More <i class="ri-arrow-right-down-line button__icon"></i>
+                Read full paper <i class="ri-arrow-right-down-line button__icon"></i>
                 </a>
         
             </div>
@@ -443,9 +448,10 @@
                 <p class="card__text" align="left">
                 Consensus-based agreements to improve transparency and accuracy in transactions for the self-help group. A mobile app is designed to digitize the physical ledger system and improve the functioning of the group usinghuman-centered design approach.
                 </p>
-                <div class="divider"></div>
-                <a href="#" class="button button--flex">
-                Read More <i class="ri-arrow-right-down-line button__icon"></i>
+                <button class="read-more-btn">Read More</button> <br>
+                
+                <a href="https://ieeexplore.ieee.org/document/9580076/" class="button button--flex">
+                Read full paper <i class="ri-arrow-right-down-line button__icon"></i>
                 </a>
                 
 
@@ -467,10 +473,12 @@
             </div>
             </div> -->
 
+    
+            </div>
+            <div class="card">
                 <a href="https://www.researchgate.net/project/Blockchain-Research-7" class="button button--flex">
                 Check all research papers<i class="ri-arrow-right-down-line button__icon"></i>
                 </a>
-    
             </div>
             </section>
 
@@ -586,15 +594,15 @@
             </h2> -->
             <div class="events">
                 <article>
-                    <h2>
-                      Upcoming Events
-                    </h2>
+                    <h1>
+                      Active Events
+                    </h1>
                     <h3>
                         Capacity Building Series
                     </h3>
-                    <p>
-                        Internal training event for our faculty and staff members. We will introduce basic concepts of blockchain, solidity and remix ide
-                    </p>
+                    <h4>
+                        Internal training event for our faculty and staff members. We will introduce basic concepts of blockchain, solidity and Remix ide. <br> Date: 25-02-2023 <br> Time: 10:00 am to 05:30 pm
+                    </h4>
                     <!-- <p>
                     We are looking for brave men and women to join us in this unique journey of awareness, activism and empathy for the global poor.
                     </p> -->
@@ -609,9 +617,9 @@
                 <h2>
                 Upcoming Events
                 </h2>
-                <h3>
+                <h2>
                 Blockchain Bootcamp
-                </h3>
+                </h2>
                 <p>
                     Get started with Ethereum and Solidity
                 </p>
@@ -763,5 +771,22 @@
         
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+
+
+        <script>
+            const btn = document.querySelector(".read-more-btn");
+            const text = document.querySelector(".card__text");
+
+            btn.addEventListener("click", function () {
+            if (text.style.maxHeight === "50px") {
+                text.style.maxHeight = "none";
+                btn.innerHTML = "Read Less";
+            } else {
+                text.style.maxHeight = "50px";
+                btn.innerHTML = "Read More";
+            }
+            });
+        </script>
+
     </body>
 </html>

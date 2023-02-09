@@ -1097,9 +1097,11 @@ aside {
   border-bottom: 1px solid #eee;
 }
 aside.events {
-  background: #fff;
+  background: var(--first-color-dark);
   box-shadow: 0 0 1px 0 rgb(24 94 224 / 15%), 0 6px 12px 0 rgb(24 94 224 / 15%);
     border-radius: 1em;
+    margin: 1em;
+    padding-left: 2em;
 }
 aside article {
   padding: 2em;
@@ -1109,7 +1111,7 @@ aside article h2 {
   padding-bottom: 1em;
   marging-bottom: 1em;
   border-bottom: 1px dotted #8dc63f;
-  color: green;
+  color: var(--first-color);
     font-weight: bold;
     padding-bottom: 1em;
 }
@@ -1186,9 +1188,10 @@ aside a.btn:hover {
     border-bottom: 0;
   } */
   .events {
-    background: #fff;
-    box-shadow: 0 0 1px 0 rgb(24 94 224 / 15%), 0 6px 12px 0 rgb(24 94 224 / 15%);
+    background: var(--first-color);
+/*    box-shadow: 0 0 1px 0 rgb(24 94 224 / 15%), 0 6px 12px 0 rgb(24 94 224 / 15%);*/
     border-radius: 1em;
+    margin: 2em;
   }
   .happening {
     border-right: 1px solid #eee;
@@ -1196,12 +1199,31 @@ aside a.btn:hover {
  article {
     padding: 2em;
   }
- article h2 {
-  color: green;
+
+  article h1 {
+  color: var(--first-color-light);
   font-weight: bold;
   padding-bottom: 1em;
-
   }
+
+  article h2 {
+  color: var(--first-color);
+  font-weight: bold;
+  padding-bottom: 1em;
+  }
+
+  article h3 {
+  color: var(--first-color-light);
+  font-weight: bold;
+  padding-bottom: 1em;
+  }
+
+  article h4 {
+  color: var(--first-color-light);
+  font-weight: light;
+  padding-bottom: 1em;
+  }
+
   a.btn {
     width: 85%;
   }
@@ -1214,9 +1236,9 @@ aside a.btn:hover {
   align-items: center;
   justify-content: center;
   padding: 3rem 0 1rem;
-  background-color: var(--first-color-lighten);
-  margin: 1em;
-    border-radius: 2em;
+  background-color: var(--container-color);
+  margin: none;
+    border-radius: 1em;
 }
 
 
@@ -1248,10 +1270,13 @@ img {
 }
 .card__text {
   font-family: var(--text-font);
-  color: var(--grey);
+  color: var(--text-color);
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 20px;
+  overflow: hidden;
+  max-height: 50px;
+  transition: max-height 0.5s ease-out;
 }
 .card__readbtn {
   font-family: var(--text-font);
@@ -1376,3 +1401,22 @@ fill: darkgrey;;
   box-shadow: 0 4px 18px rgba(0, 0, 0, .1);
   border: none;
 }
+
+.text {
+    overflow: hidden;
+    max-height: 50px;
+    transition: max-height 0.5s ease-out;
+  }
+
+.read-more-btn {
+/*    position: absolute;
+    right: 0;
+    bottom: 0;*/
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 16px;
+  }
