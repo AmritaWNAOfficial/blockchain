@@ -523,6 +523,7 @@ the website, in dark theme
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
+  text-align: center;
   display: block;
     margin: 0 auto;
     padding-top: 1em;
@@ -1437,7 +1438,7 @@ fill: darkgrey;;
 } */
 .btn-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   border-radius: 1em;
 }
 .tab-btn {
