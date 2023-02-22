@@ -1437,7 +1437,7 @@ fill: darkgrey;;
 } */
 .btn-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   border-radius: 1em;
 }
 .tab-btn {
@@ -1446,11 +1446,11 @@ fill: darkgrey;;
   text-transform: capitalize;
   display: block;
   background: var(--first-color-lighten);
-  color: #ffffff;
+  color: var(--text-color-light);
   cursor: pointer;
 }
 .tab-btn:hover:not(.active) {
-  background:#c9c9c9;
+/*  background:#c9c9c9;*/
   color: #ffffff;
 }
 /* .horizontal-tabs {
@@ -1461,6 +1461,7 @@ fill: darkgrey;;
 }
 .tab-btn.active {
   background: var(--first-color);
+  color: #FFF;
 }
 .content.active {
   display: block;
