@@ -979,7 +979,7 @@ the website, in dark theme
   }
 
   .home{
-    padding: 6rem 0 5rem;
+    padding: 9rem 0 5rem;
   }
   .home__img{
     width: 350px;
@@ -1257,7 +1257,15 @@ img {
 
 .card {
   text-align: center;
+  text-align: center;
+    background: var(--first-color-lighten);
+    padding: 2em 2em;
+    border-radius: 1em;
 }
+.cards{
+  text-align: center;
+}
+
 .card__img {
   margin-bottom: 30px;
 }
@@ -1420,3 +1428,40 @@ fill: darkgrey;;
     color: var(--text-color);
     font-size: 16px;
   }
+/* profile tabs */
+
+
+/* .horizontal-tabs {
+  display: grid;
+  grid-template-rows: auto 1fr;
+} */
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 1em;
+}
+.tab-btn {
+  padding: 1rem 0;
+  border: none;
+  text-transform: capitalize;
+  display: block;
+  background: var(--first-color-lighten);
+  color: #ffffff;
+  cursor: pointer;
+}
+.tab-btn:hover:not(.active) {
+  background:#c9c9c9;
+  color: #ffffff;
+}
+/* .horizontal-tabs {
+  padding: 2rem 1.75rem;
+} */
+.content {
+  display: none;
+}
+.tab-btn.active {
+  background: var(--first-color);
+}
+.content.active {
+  display: block;
+}

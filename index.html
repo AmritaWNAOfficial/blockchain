@@ -28,7 +28,7 @@
         <!-- End Meta Pixel Code -->
 
         <meta charset="UTF-8">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
         <link rel="shortcut icon" href="assets/img/metaverse.png" type="image/x-icon">
@@ -259,24 +259,35 @@
                 </div>
             </section>
 
-            
             <!--==================== Current Students ====================-->
-            <!-- <section class="product section container" id="team">
-                <h2 class="section__title-center">
-                    Current <br> Members
-                </h2>
-                <p class="product__description">
-                    Join our community of students who love Blockchain.
-                </p>
-                <div class="product__container grid">
-                <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'Smart Contracts')">Smart Contracts</button>
-                <button class="tablinks" onclick="openCity(event, 'NFTs')">NFTs</button>
-                <button class="tablinks" onclick="openCity(event, 'eCom')">Supply Chain</button>
-                </div>
+            <!-- PROFILE TABS -->
+            <section class="section">
+            <div class="title">
+            <h2 class="section__title-center">
+                Current <br> Students
+            </h2>
 
-                
-                <div id="Smart Contracts" class="tabcontent">
+            <p class="product__description">
+            Join forces with fellow alumni and create new possibilities through our network.
+            </p>
+            
+            </div>
+
+            <div class="horizontaltabs-center section-center">
+            <article class="horizontal-tabs">
+            <div class="btn-container">
+            <button class="tab-btn active" data-id="mobility">Mobility</button>
+            <button class="tab-btn" data-id="nft">NFTs</button>
+            <button class="tab-btn" data-id="dolor">eCommerce</button>
+            <!-- <button class="tab-btn" data-id="sit">Sit </button>
+            <button class="tab-btn" data-id="amet" >Amet</button> -->
+            </div>
+            
+            <div class="horizontal-tabs">
+            <div class="content active" id="mobility">
+            <!-- <h4>Lorem</h4> -->
+            <p>
+                <div class="product__container grid">
                 
                 <article class="product__card">          
                         <img src="assets/img/Profile/jivethesh.png" alt="" class="product__img">
@@ -292,26 +303,39 @@
                         <img src="assets/img/Profile/students/rohit.png" alt="" class="product__img">
                         <h3 class="product__title">Rohit Mathew Samuel</h3>
                 </article>
-
+                
                 </div>
-
-                <div id="NFTs" class="tabcontent">
+            </p>
+            </div>
+            <div class="content" id="nft">
+            <!-- <h4>Ipsum</h4> -->
+            <p>
+              
+                <div class="product__container grid">
                 
                 <article class="product__card">
                         <img src="assets/img/Profile/students/vyshnavi.png" alt="" class="product__img">
                         <h3 class="product__title">Konijeti Sri Vyshnavi</h3>
-                </article>
+                </article>  
+
+                <article class="product__card">
+                        <img src="assets/img/Profile/students/yashashwini.png" alt="" class="product__img">
+                        <h3 class="product__title">Yashaswini Eragamreddy</h3>
+                </article> 
                 
                 </div>
+            </p>
 
-                <div id="eCom" class="tabcontent">
+            </div>
+            <div class="content" id="dolor">
+            <!-- <h4>Dolor</h4> -->
+            <p>
+                <div class="product__container grid">
                 
                 <article class="product__card">
                         <img src="assets/img/Profile/students/amritan.png" alt="" class="product__img">
                         <h3 class="product__title">Amirtha Narayana Krishnan</h3>
-                </article>
-
-                    
+                </article>        
 
                 <article class="product__card">
                         <img src="assets/img/Profile/students/girish.png" alt="" class="product__img">
@@ -327,20 +351,37 @@
                         <img src="assets/img/Profile/students/yasin.png" alt="" class="product__img">
                         <h3 class="product__title">Yasin Syed</h3>
                 </article>
-                
+
                 </div>
-                
+            </p>
+            </div>
+            <!-- <div class="content" id="sit">
+            <h4>Sit</h4>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            </div>
+            <div class="content" id="amet">
+            <h4>Amet</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            </div> -->
+            </div>
+            </div>
+            </section>
 
 
-                
-                   
 
-                    
-                </div>
-            </section> -->
+
             
-
-
+            
             <!--==================== Alumni ====================-->
             <section class="product section container" id="team">
                 <h2 class="section__title-center">
@@ -441,10 +482,10 @@
                 <h3 class="card__title">
                     Community Marketplace
                 </h3>
-                <div class="divider"></div>
-                <p class="card__text" align="left">
+                <!-- <div class="divider"></div> -->
+                <!-- <p class="card__text" align="left">
                 A blockchain-enabled community marketplace with dynamic pricing, using a fuzzy logic-based smart contract to monitor quality and quantity of commodities, processed via IOTA decentralized ledger and accessible through a mobile app or kiosk UI. Transactions occur only after customer accepts proposed price. </p> 
-                <button class="read-more-btn">Read More</button> <br>
+                <button class="read-more-btn">Read More</button> <br> -->
                 
                 <!-- <div class="divider"></div> -->
                 <a href="https://www.researchgate.net/publication/360382709_Architecture_and_Proof_of_Concept_Design_for_Community_Marketplace_Using_Blockchain_Technology_and_Fuzzy_Intelligence" class="button button--flex">
@@ -460,11 +501,11 @@
                 <h3 class="card__title">
                 Blood Donation with NFT Rewards
                 </h3>
-                <div class="divider"></div>
-                <p class="card__text" align="left">
+                <!-- <div class="divider"></div> -->
+                <!-- <p class="card__text" align="left">
                 This paper introduces a blockchain-based DApp to match blood recipients with donors in emergency situations, securely storing donor information and incentivizing blood donations with NFT badges. The paper details the design of smart contracts and the DApp, aiming to address low donor awareness and motivation.
-                </p>
-                <button class="read-more-btn">Read More</button> <br>
+                </p> -->
+                <!-- <button class="read-more-btn">Read More</button> <br> -->
 
                 <a href="https://www.researchgate.net/publication/366093956_A_prototype_design_for_Gamified_blood_donation_app_using_Blockchain_Technology_IPFS_and_NFTs" class="button button--flex">
                 Read full paper <i class="ri-arrow-right-down-line button__icon"></i>
@@ -477,12 +518,12 @@
                 <h3 class="card__title">
                 Food SupplyChain & AVCoin
                 </h3>
-                <div class="divider"></div>
+                <!-- <div class="divider"></div> -->
                 
-                <p class="card__text" align="left">
+                <!-- <p class="card__text" align="left">
                  The existing Food Supply Chain (FSC) suffers from issues like quality, safety, conscious consumption, and regulatory issues. Introducing a new Food Supply Chain Traceability System to overcome problems faced by existing system using Ethereum smart contract linked to IPFS, which handles data and enables trust through cryptocurrency, AVCoin.
-                </p> 
-                <button class="read-more-btn">Read More</button> <br>
+                </p>  -->
+                <!-- <button class="read-more-btn">Read More</button> <br> -->
 
                 <!-- <div class="divider"></div> -->
                 <a href="https://ieeexplore.ieee.org/document/10009418" class="button button--flex">
@@ -497,11 +538,11 @@
                 <h3 class="card__title">
                 Self Microfinance Consensus
                 </h3>
-                <div class="divider"></div>
-                <p class="card__text" align="left">
+                <!-- <div class="divider"></div> -->
+                <!-- <p class="card__text" align="left">
                 Consensus-based agreements to improve transparency and accuracy in transactions for the self-help group. A mobile app is designed to digitize the physical ledger system and improve the functioning of the group usinghuman-centered design approach.
-                </p>
-                <button class="read-more-btn">Read More</button> <br>
+                </p> -->
+                <!-- <button class="read-more-btn">Read More</button> <br> -->
                 
                 <a href="https://ieeexplore.ieee.org/document/9580076/" class="button button--flex">
                 Read full paper <i class="ri-arrow-right-down-line button__icon"></i>
@@ -528,7 +569,7 @@
 
     
             </div>
-            <div class="card">
+            <div class="cards">
                 <a href="https://www.researchgate.net/project/Blockchain-Research-7" class="button button--flex">
                 Check all research papers<i class="ri-arrow-right-down-line button__icon"></i>
                 </a> <br>
@@ -843,6 +884,25 @@
             } else {
                 text.style.maxHeight = "50px";
                 btn.innerHTML = "Read More";
+            }
+            });
+        </script>
+        <script>
+            const horizontaltabs = document.querySelector(".horizontal-tabs");
+            const btns = document.querySelectorAll(".tab-btn");
+            const articles = document.querySelectorAll(".content");
+            horizontaltabs.addEventListener("click", function (e) {
+            const id = e.target.dataset.id;
+            if (id) {
+                btns.forEach(function (btn) {
+                btn.classList.remove("active");
+                });
+                e.target.classList.add("active");
+                articles.forEach(function (article) {
+                article.classList.remove("active");
+                });
+            const element = document.getElementById(id);
+            element.classList.add("active");
             }
             });
         </script>
