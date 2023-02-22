@@ -1466,3 +1466,8 @@ fill: darkgrey;;
 .content.active {
   display: block;
 }
+
+.std-description{
+  margin: 1em;
+  text-align: justify;
+}
