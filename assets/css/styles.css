@@ -176,7 +176,7 @@ the website, in dark theme
 }
 
 .container{
-  max-width: 968px;
+  max-width: 1300px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -217,7 +217,7 @@ the website, in dark theme
 .nav__logo{
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: -1px;
+/*  letter-spacing: -1px;*/
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
