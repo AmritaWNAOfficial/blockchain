@@ -1447,7 +1447,7 @@ fill: darkgrey;;
 } */
 .btn-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   border-radius: 1em;
 }
 .tab-btn {
