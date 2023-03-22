@@ -1263,6 +1263,10 @@ img {
     padding: 2em 2em;
     border-radius: 1em;
 }
+.card:hover{
+transform: translateY(-.5rem);
+}
+
 .cards{
   text-align: center;
 }
