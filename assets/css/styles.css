@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
-:root {
+:root {.nav__list 
   --header-height: 3.5rem; /*56px*/
 
   /*========== Colors ==========*/
@@ -924,7 +924,7 @@ the website, in dark theme
   }
   .nav__list{
     flex-direction: row;
-    column-gap: 3rem;
+    column-gap: 2rem;
   }
   .nav__menu{
     margin-left: auto;
